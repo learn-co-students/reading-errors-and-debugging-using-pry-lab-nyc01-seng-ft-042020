@@ -3,7 +3,7 @@ require 'pry'
 
 def snake_it_up(string)
   if string[0] == "s"
-    string.insert 1,"ssssssssss"
+    's' * 10 + string
   else
     string
   end
